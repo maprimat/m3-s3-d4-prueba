@@ -1,0 +1,18 @@
+// Imports
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Manifiesto para archivos
+// abstracts
+@import './abstracts/custom_bootstrap', './abstracts/variables';
+// base
+@import './base/base', './base/reset', './base/typography';
+// components
+@import './components/carousel', './components/card';
+// layout
+@import './layout/navigation', './layout/testimonios';
+// pages
+// themes
+// vendors

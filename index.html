@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- TITLE -->
+    <title>Landing - Viajes Chile</title>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matias Prieto">
+    <meta name="description" content="¡Los mejores viajes alrededor de Chile!">
+    <meta name="keywords" content="viajes, chile, travel, avion, bus">
+    <!-- FONTAWESOME 6.5.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/png">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top gradient-custom">
+        <div class="container px-5">
+            <a id="logo" class="navbar-brand" href="#">
+                <img class="d-inline-block align-text-top" src="./assets/img/viajes.svg" width="40px" alt="logo">
+                <span class="d-inline-block align-text-top text-uppercase fw-medium fs-3">Viajes Chile</span>
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-light fs-5 text-end">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="#" aria-current="page">Inicio</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="#about">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="#featured">Destacados</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="#testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="fixed-top" id="liveAlertPlaceholder" role="alert"></div>
+
+    <!-- HEADER -->
+    <header id="hero">
+
+        <!-- CAROUSEL -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel"
+            data-bs-pause="false">
+            <div class="carousel-inner">
+
+                <!-- IMAGEN 1 / INTERVALO 3S -->
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+                </div>
+
+                <!-- IMAGEN 2 / INTERVALO 3S -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+                </div>
+
+                <!-- IMAGEN 3 / INTERVALO 3S -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <!-- ABOUT -->
+        <section id="about" class="text-light py-5 d-none d-md-block">
+            <div class="container text-center px-5">
+                <h2 class="text-uppercase fw-normal fs-2">¿QUIENES SOMOS?</h2>
+
+                <!-- HORIZONTAL RULE -->
+                <hr class="my-5">
+                <!-- HORIZONTAL RULE -->
+
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-none d-lg-block">
+                        <img class="img-fluid rounded-5" src="./assets/img/gente-torres-paine.jpg" alt="personas">
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <p class="text-start">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
+                            neque consectetur. ultrices justo eu. hendrerit lectus. Nullam fermentum turpis et dolor
+                            euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus.
+                            Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus
+                            ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac, Maecenas in mi blandit.
+                            euismod ipsum eu, lobortis nisi.
+                        </p>
+                        <br>
+                        <p class="text-start">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
+                            neque consectetur. ultrices justo eu. hendrerit lectus. Nullam fermentum turpis et dolor
+                            euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus.
+                            Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus
+                            ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac, Maecenas in mi blandit.
+                            euismod ipsum eu, lobortis nisi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED -->
+        <section id="featured" class="text-light py-5">
+            <div class="container text-center px-5">
+                <h2 class="text-uppercase fw-normal fs-2">DESTACADOS</h2>
+
+                <!-- HORIZONTAL RULE -->
+                <hr class="my-5">
+                <!-- HORIZONTAL RULE -->
+
+                <div class="row row-cols-1 row-cols-md-2 text-start">
+
+                    <!-- CARD 1 -->
+                    <div class="col">
+                        <div class="card my-3">
+                            <div class="row">
+
+                                <div class="col-md-5 card-img-g">
+                                    <img src="./assets/img/card1.jpg"
+                                        class="img-fluid h-100 object-fit-cover rounded-start"
+                                        alt="Parque Torre del Paine">
+                                </div>
+
+                                <div class="col-md-7 g-0">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Región de los Lagos</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Donec mattis ante nulla. Donec in
+                                            neque consectetur. ultrices justo eu. hendrerit lectus.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer py-3 d-flex align-items-center">
+                                        <i class="fa-solid fa-plane-up"></i>
+                                        <span class="card-text px-3">Vuelos desde</span>
+                                        <span class="card-text fs-5 ms-auto px-3 fw-medium">$159.990</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="col">
+                        <div class="card my-3">
+                            <div class="row">
+
+                                <div class="col-md-5 card-img-g">
+                                    <img src="./assets/img/card2.jpg"
+                                        class="img-fluid h-100 object-fit-cover rounded-start"
+                                        alt="Parque Torre del Paine">
+                                </div>
+
+                                <div class="col-md-7 g-0">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Desierto de Atacama</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Donec mattis ante nulla. Donec in
+                                            neque consectetur. ultrices justo eu. hendrerit lectus.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer py-3 d-flex align-items-center">
+                                        <i class="fa-solid fa-plane-up"></i>
+                                        <span class="card-text px-3">Vuelos desde</span>
+                                        <span class="card-text fs-5 ms-auto px-3 fw-medium">$189.990</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="col">
+                        <div class="card my-3">
+                            <div class="row">
+
+                                <div class="col-md-5 card-img-g">
+                                    <img src="./assets/img/card3.jpg"
+                                        class="img-fluid h-100 object-fit-cover rounded-start"
+                                        alt="Parque Torre del Paine">
+                                </div>
+
+                                <div class="col-md-7 g-0">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Norte grande de Chile</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Donec mattis ante nulla. Donec in
+                                            neque consectetur. ultrices justo eu. hendrerit lectus.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer py-3 d-flex align-items-center">
+                                        <i class="fa-solid fa-plane-up"></i>
+                                        <span class="card-text px-3">Vuelos desde</span>
+                                        <span class="card-text fs-5 ms-auto px-3 fw-medium">$289.990</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 4 -->
+                    <div class="col">
+                        <div class="card my-3">
+                            <div class="row">
+
+                                <div class="col-md-5 card-img-g">
+                                    <img src="./assets/img/card4.jpg"
+                                        class="img-fluid h-100 object-fit-cover rounded-start"
+                                        alt="Parque Torre del Paine">
+                                </div>
+
+                                <div class="col-md-7 g-0">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Bosque mágico</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Donec mattis ante nulla. Donec in
+                                            neque consectetur. ultrices justo eu. hendrerit lectus.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer py-3 d-flex align-items-center">
+                                        <i class="fa-solid fa-plane-up"></i>
+                                        <span class="card-text px-3">Vuelos desde</span>
+                                        <span class="card-text fs-5 ms-auto px-3 fw-medium">$259.990</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- TESTIMONIOS -->
+        <section id="testimonios" class="text-light py-5">
+            <div class="container text-center px-5">
+                <h2 class="text-uppercase fw-normal fs-2">TESTIMONIOS</h2>
+
+                <!-- HORIZONTAL RULE -->
+                <hr class="my-5">
+                <!-- HORIZONTAL RULE -->
+
+                <div class="row">
+
+                    <div class="col-12 col-lg-4">
+                        <div class="testimonios__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec
+                                in neque consectetur. ultrices justo eu.
+                            </p>
+                        </div>
+
+                        <div class="testimonios__image">
+                            <img class="testimonios__avatar" src="./assets/img/testimonio1.jpg" alt="foto de persona">
+                        </div>
+                        <p class="testimonios__name">Mariela</p>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="testimonios__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec
+                                in neque consectetur. ultrices justo eu.</p>
+                        </div>
+
+                        <div class="testimonios__image">
+                            <img class="testimonios__avatar" src="./assets/img/testimonio2.jpg" width="80px"
+                                alt="foto de persona">
+                        </div>
+                        <p class="testimonios__name">Christian</p>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="testimonios__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec
+                                in neque consectetur. ultrices justo eu.</p>
+                        </div>
+
+                        <div class="testimonios__image">
+                            <img class="testimonios__avatar" src="./assets/img/testimonio3.jpg" width="80px"
+                                alt="foto de persona">
+                        </div>
+                        <p class="testimonios__name">Fernanda</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="text-light py-5">
+            <div class="container px-5">
+                <h2 class="text-uppercase text-center fw-normal fs-2">CONTACTO</h2>
+
+                <!-- HORIZONTAL RULE -->
+                <hr class="my-5">
+                <!-- HORIZONTAL RULE -->
+
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <form>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                    <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                                        data-bs-custom-class="custom-tooltip" data-bs-title="Escribe tu nombre."> </i>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Email</label>
+                                    <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                                        data-bs-custom-class="custom-tooltip" data-bs-title="Escribe tu email."> </i>
+                                    <input type="email" class="form-control" id="exampleInputPassword1">
+
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="Deja tu mensaje."> </i>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+
+                            <div class="form-check py-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    <a class="link-light" href="#">Acepto los términos y condiciones</a>
+                                </label>
+                            </div>
+                            <button id="liveAlertBtn" type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" data-bs-title="Presione para enviar" href="">
+                                Enviar</button>
+
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                        <div class="pb-2">
+                            <span class="fa-solid fa-phone"></span>
+                            <span class="mx-4">+56 9 1234 5678</span>
+                        </div>
+                        <div class="pb-2">
+                            <span class="fa-solid fa-envelope"></span>
+                            <span class="mx-4">contacto@viajeschile.com</span>
+                        </div>
+                        <div class="pb-2">
+                            <span class="fa-brands fa-linkedin"></span>
+                            <span class="mx-4">ViajesChile</span>
+                        </div>
+                        <div>
+                            <span class="fa-brands fa-instagram"></span>
+                            <span class="mx-4">viajes_chile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="bg-info text-light text-center py-5">
+        <div class="row g-0">
+            <!-- LOGO FOOTER -->
+            <div class="col-6">
+                <a href="#" class="text-decoration-none text-light mx-2">
+                    <span class="d-inline-block align-text-top text-uppercase fw-medium fs-3">Viajes Chile</span>
+                </a>
+            </div>
+            <!-- BRANDS -->
+            <div class="col-6">
+                <!-- GITHUB -->
+                <a href="https://github.com/maprimat" class="text-decoration-none text-light mx-2">
+                    <span class="fa-brands fa-square-github d-inline-block align-text-top fs-3"></span>
+                </a>
+                <!-- LINKEDIN -->
+                <a href="https://www.linkedin.com/in/maprimat/" class="text-decoration-none text-light mx-2">
+                    <span class="fa-brands fa-linkedin d-inline-block align-text-top fs-3"></span>
+                </a>
+                <!-- TWITTER -->
+                <a href="https://www.twitter.com" class="text-decoration-none text-light mx-2">
+                    <span class="fa-brands fa-square-twitter d-inline-block align-text-top fs-3"></span>
+                </a>
+                <!-- FACEBOOK -->
+                <a href="https://www.facebook.com" class="text-decoration-none text-light mx-2">
+                    <span class="fa-brands fa-square-facebook d-inline-block align-text-top fs-3"></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Termino y Condiciones</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
+                            neque consectetur. ultrices justo eu. hendrerit lectus. Nullam fermentum turpis et dolor
+                            euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus.
+                            Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus
+                            ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac, Maecenas in mi blandit.
+                            euismod ipsum eu, lobortis nisi.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS FOLDER -->
+    <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- JS SCRIPTS -->
+    <script defer src="./assets/js/scripts.js"></script>
+
+</body>
+
+</html>

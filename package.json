@@ -1,0 +1,17 @@
+{
+  "name": "m3-s3-d4-prueba",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "Matias Prieto",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

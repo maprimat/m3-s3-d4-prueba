@@ -1,0 +1,35 @@
+.testimonios {
+
+    &__image {
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 60px;
+        height: 60px;
+        border: solid 1px;
+    }
+
+    &__text {
+        color: $brown;
+        text-align: center;
+        font-style: italic;
+        font-size: medium;
+        word-spacing: 2px;
+        padding: 0 60px;
+    }
+
+    &__avatar {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__name {
+        color: $brown;
+        text-align: center;
+        font-size: larger;
+        padding-top: 12px;
+        font-weight: 600;
+    }
+
+}
